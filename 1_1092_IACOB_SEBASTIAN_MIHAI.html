@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proiect Tema 1</title>
+    <link rel="stylesheet" href="1_1092_IACOB_SEBASTIAN_MIHAI.css">
+   
+</head>
+<body>
+    <h1>PAINT</h1>
+
+    <div id="interfata">
+        <div id="titlu">
+            <p>Interfata</p>
+        </div>
+        <input type="radio" id="elipsa_radio" name="shape" value="elipsa" class="radio">
+        <label for="elipsa_radio">Elipsa</label>
+        
+        <input type="radio" id="dreptunghi_radio" name="shape" value="dreptunghi" class="radio">
+        <label for="dreptunghi_radio">Dreptunghi</label>
+
+        <input type="radio" id="linie_radio" name="shape" value="linie" class="radio">
+        <label for="linie_radio">Linie</label>
+
+        <input type="radio" id="creion_radio" name="shape" value="creion" class="radio">
+        <label for="creion_radio">Creion</label>
+
+        <label id="grosime_label" for="select_grosime">Grosime</label>
+        <select id="select_grosime">
+            <option value="1">Subtire</option>
+            <option value="3">Medie</option>
+            <option value="5">Groasa</option>
+        </select>
+        <label for="culoare_figuri_input">Culoare Figuri</label>
+        <input type="color" id="culoare_figuri_input" value="#000000">
+        <label for="culoare_figuri_input">Culoare background</label>
+        <input type="color" id="culoare_background_input" value="#FFFFFF">
+        <label for="format_select"></label>
+        <select id="format_select">
+            <option value="png">PNG</option>
+            <option value="jpeg">JPEG</option>
+            <option value="jpg">JPG</option>
+        </select>
+        <button id="save_canvas">SAVE</button>
+        <button id="save_canvas_svg">SAVE AS SVG</button>
+
+    </div>
+    
+    <canvas id="iacob_sebastian_canvas" ></canvas>
+
+    <div id="stergereDiv"></div>
+
+    <script src="1_1092_IACOB_SEBASTIAN_MIHAI.js" type="text/javascript"></script>
+</body>
+</html>

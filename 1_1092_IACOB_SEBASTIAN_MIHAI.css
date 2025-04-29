@@ -1,0 +1,78 @@
+
+h1 {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid brown;
+    padding: 20px;
+    background-color: red;
+    border-radius: 20px;
+    
+    margin-top: 0px;
+  
+}
+
+
+#interfata {
+    border: 2px solid saddlebrown;
+    background-color: lightgrey; 
+    
+    margin-top: 20px;
+    padding: 20px;
+    width: 70%;
+ 
+}
+
+
+body {
+    background-color: aqua;
+}
+
+#iacob_sebastian_canvas {
+    border: 3px solid green;
+    border-radius: 20px;
+    background-color: azure;
+    display: block;
+    margin: 20px auto;
+
+  
+}
+
+
+/* deselectare si selectare buton */
+#interfata .rladio {
+    appearance: none; /* Remove default radio button appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px 20px;
+    border: 2px solid #555;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    border-radius: 50px; /* Make the radio button circular */
+    transition: background-color 0.3s, color 0.3s, transform 0.2s ease;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* Active state */
+#interfata .radio.active {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    border-color: #e53e3e; /* Dark red border */
+    transform: scale(1.1); /* Slightly enlarge when active */
+}
+
+
+#stergereDiv {
+    border: 2px solid saddlebrown;
+    background-color: lightgrey; 
+    
+    margin-top: 20px;
+    padding: 20px;
+    width: 70%;
+ 
+}
+
